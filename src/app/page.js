@@ -34,14 +34,6 @@ export default function Home() {
           >
             Incident Management
           </button>
-
-          <button
-            onClick={handleIncidentClick}
-            className="w-64 px-6 py-3 bg-gradient-to-r from-green-500 to-green-700 text-white font-semibold text-lg rounded-lg shadow-lg hover:from-green-600 hover:to-green-800 focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-opacity-50 transition-all duration-300"
-          >
-            Test Merge
-          </button>
-
         </div>
       </div>
 
