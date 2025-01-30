@@ -5,6 +5,6 @@
   "/api/packages/search/route": "app/api/packages/search/route.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/packages/[id]/page": "app/packages/[id]/page.js",
-  "/packages/page": "app/packages/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/packages/page": "app/packages/page.js"
 }
