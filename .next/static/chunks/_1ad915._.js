@@ -61,11 +61,20 @@ function Home() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 onClick: handleIncidentClick,
-                                className: "w-64 px-6 py-3 bg-gradient-to-r from-green-500 to-green-700 text-white font-semibold text-lg rounded-lg shadow-lg hover:from-green-600 hover:to-green-800 focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-opacity-50 transition-all duration-300",
+                                className: "w-64 px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold text-lg rounded-lg shadow-lg hover:from-blue-600 hover:to-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50 transition-all duration-300",
                                 children: "Test Merge"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/page.js",
                                 lineNumber: 38,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                onClick: handleIncidentClick,
+                                className: "w-64 px-6 py-3 bg-gradient-to-r from-green-500 to-green-700 text-white font-semibold text-lg rounded-lg shadow-lg hover:from-green-600 hover:to-green-800 focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-opacity-50 transition-all duration-300",
+                                children: "Test Webhook"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/page.js",
+                                lineNumber: 45,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -85,7 +94,7 @@ function Home() {
                 children: "This feature is under development."
             }, void 0, false, {
                 fileName: "[project]/src/app/page.js",
-                lineNumber: 51,
+                lineNumber: 58,
                 columnNumber: 9
             }, this)
         ]
