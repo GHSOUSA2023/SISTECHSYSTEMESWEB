@@ -34,14 +34,7 @@ export default function Home() {
           >
             Incident Management
           </button>
-
-          <button
-            onClick={handleIncidentClick}
-            className="w-64 px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold text-lg rounded-lg shadow-lg hover:from-blue-600 hover:to-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50 transition-all duration-300"
-          >
-            Webhooks Test
-          </button>
-          
+         
         </div>      
       </div>
 
