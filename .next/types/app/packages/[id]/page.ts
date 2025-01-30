@@ -1,4 +1,4 @@
-// File: D:\Project_Creccal\prj-01\src\app\packages\[id]\page.js
+// File: D:\Project_Creccal\creccal_aws\src\app\packages\[id]\page.js
 import * as entry from '../../../../../src/app/packages/[id]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

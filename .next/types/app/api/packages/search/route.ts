@@ -1,4 +1,4 @@
-// File: D:\Project_Creccal\prj-01\src\app\api\packages\search\route.js
+// File: D:\Project_Creccal\creccal_aws\src\app\api\packages\search\route.js
 import * as entry from '../../../../../../src/app/api/packages/search/route.js'
 import type { NextRequest } from 'next/server.js'
 
