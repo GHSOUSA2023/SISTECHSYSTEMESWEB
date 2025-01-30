@@ -88,6 +88,15 @@ function Home() {
                                 fileName: "[project]/src/app/page.js",
                                 lineNumber: 31,
                                 columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                onClick: handleIncidentClick,
+                                className: "w-64 px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold text-lg rounded-lg shadow-lg hover:from-blue-600 hover:to-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50 transition-all duration-300",
+                                children: "Webhooks Test"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/page.js",
+                                lineNumber: 38,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
@@ -106,7 +115,7 @@ function Home() {
                 children: "This feature is under development."
             }, void 0, false, {
                 fileName: "[project]/src/app/page.js",
-                lineNumber: 44,
+                lineNumber: 51,
                 columnNumber: 9
             }, this)
         ]
