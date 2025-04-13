@@ -1,8 +1,4 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
   "/api/aptemails/[apt]/route": "app/api/aptemails/[apt]/route.js",
-  "/api/aptemails/route": "app/api/aptemails/route.js",
-  "/page": "app/page.js",
   "/aptemails/page": "app/aptemails/page.js"
 }
