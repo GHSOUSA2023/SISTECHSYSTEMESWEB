@@ -1,10 +1,4 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/packages/[id]/route": "app/api/packages/[id]/route.js",
-  "/api/packages/route": "app/api/packages/route.js",
-  "/api/packages/search/route": "app/api/packages/search/route.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/packages/page": "app/packages/page.js",
-  "/packages/[id]/page": "app/packages/[id]/page.js",
-  "/page": "app/page.js"
+  "/api/aptemails/[apt]/route": "app/api/aptemails/[apt]/route.js",
+  "/aptemails/page": "app/aptemails/page.js"
 }

@@ -1,4 +1,4 @@
-// File: D:\Project_Creccal\creccal_aws\src\app\layout.js
+// File: /Users/geraldohenriquesousa/Documents/Project_Creccal/creccal_aws/src/app/layout.js
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

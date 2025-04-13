@@ -14,13 +14,27 @@ export class BaseCrudService {
 
   async getAll() {
     const snapshot = await get(this.dbRef);
+    const items = snapshot.val() || {};
+  
+    const itemsArray = Object.entries(items).map(([apt, data]) => ({
+      apt,          // 👈 insere o ID do nó como campo apt
+      ...data
+    }));
+  
+    return itemsArray;
+  }
+  
+
+  /*
+  async getAll() {
+    const snapshot = await get(this.dbRef);
     // console.log('BaseCrudService - Raw snapshot:', snapshot.val()); // Debug log
     const items = snapshot.val() || {};
     const itemsArray = Object.values(items);
     // console.log('BaseCrudService - Transformed items:', itemsArray); // Debug log
     return itemsArray;
   }
-
+*/
   async getById(id) {
     const itemRef = ref(db, `${this.path}/${id}`);
     const snapshot = await get(itemRef);
@@ -36,9 +50,15 @@ export class BaseCrudService {
 
   async update(id, data) {
     const itemRef = ref(db, `${this.path}/${id}`);
-    await update(itemRef, data);
-    return { ...data, id };
+    const existing = await this.getById(id);
+  
+    if (!existing) throw new Error('Item not found');
+  
+    const mergedData = { ...existing, ...data };
+    await set(itemRef, mergedData);
+    return mergedData;
   }
+  
 
   async delete(id) {
     const itemRef = ref(db, `${this.path}/${id}`);
