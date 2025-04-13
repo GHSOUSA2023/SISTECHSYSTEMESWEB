@@ -4,16 +4,16 @@ export default function AptEmailsTable({ aptemails, onEdit }) {
       <table className="min-w-full bg-white border border-gray-300">
         <thead>
           <tr>
-            <th className="px-6 py-3 border-b">Apartment</th>
-            <th className="px-6 py-3 border-b">Email</th>
-            <th className="px-6 py-3 border-b">Actions</th>
+            <th className="px-6 py-3 border-b text-left">Apartment</th>
+            <th className="px-6 py-3 border-b text-left">Email</th>
+            <th className="px-6 py-3 border-b text-left">Actions</th>
           </tr>
         </thead>
         <tbody>
           {aptemails.map((ae) => (
             <tr key={ae.apt}>
               <td className="px-6 py-4 border-b">{typeof ae.apt === 'string' ? ae.apt : '❌'}</td>
-              <td className="px-6 py-4 border-b">{typeof ae.email === 'string' ? ae.email : '❌ email inválido'}</td>
+              <td className="px-6 py-4 border-b">{typeof ae.email === 'string' ? ae.email : '❌ Invalid email'}</td>
               <td className="px-6 py-4 border-b">
                 <button
                   onClick={() => onEdit(ae)}

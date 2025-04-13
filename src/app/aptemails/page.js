@@ -77,7 +77,7 @@ export default function AptEmailPage() {
   return (
     <div>
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-2xl font-bold">Emails des appartements</h1>
+        <h1 className="text-2xl font-bold">Apartment Emails</h1>
       </div>
 
       {/* Filtros visuais */}
