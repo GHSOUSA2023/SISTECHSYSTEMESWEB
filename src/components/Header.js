@@ -10,6 +10,7 @@ export default function Header() {
         <ul className="flex gap-4 mt-4 self-end">
           <li><a href="/" className="hover:underline">Home</a></li>
           <li><a href="/packages" className="hover:underline">Packages</a></li>
+          <li><a href="/aptemails" className="hover:underline">Apt-Emails</a></li>
           
         </ul>
       </nav>
