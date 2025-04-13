@@ -26,6 +26,14 @@ export default function Home() {
           >
             Packages
           </button>
+          {/* Bouton pour naviguer vers la page des apt emails */}
+          {/* Button to navigate to the emails page */}
+          <button
+            onClick={() => router.push('/aptemails')}
+            className="w-64 px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold text-lg rounded-lg shadow-lg hover:from-blue-600 hover:to-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50 transition-all duration-300"
+          >
+            Apt/Emails
+          </button>
           {/* Bouton pour la gestion des incidents */}
           {/* Button for incident management */}
           <button
