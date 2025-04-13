@@ -22,4 +22,6 @@ git checkout homolog      (revenir sur votre branche pour finaliser)
 dans le racine du projet
 npm run dev
 
+avant de envoyer au git hub - si non le serveur red-hat ne fonctionne pas
 npm run build && npm run start (par simuler le production)
+
