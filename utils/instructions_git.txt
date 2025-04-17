@@ -25,3 +25,31 @@ npm run dev
 avant de envoyer au git hub - si non le serveur red-hat ne fonctionne pas
 npm run build && npm run start (par simuler le production)
 
+2️⃣  pour mise a jour directament dans le serveur sans pull git hub
+dans le reppertoire de la app (var/www) choix le reppertoire
+git fetch origin
+git reset --hard origin/main (dev ou homolog) cet depend de qu’elle branch
+npm install
+npm run build (si ne faite pas dans le code vscode avant de envoyer au git hub - erreur 502)
+pm2 list
+pm2 restart nomeserveur (mise a jour)
+
+
+ngix (etc/nginx/conf.d)
+serveur             porte
+creccal             3000
+webhook             3001 -- github payload
+serveursmtp         3010
+
+preprodcreccal      3002 
+webhook-homolog     3003 -- github payload
+
+sistech             3005
+webhook             3006 -- github payload non parametriser non implementer
+serveursmtpmaster   3011 -- non parametriser non implementer
+
+
+
+editer le var/wwww/preprodcreccal/package.json
+    "start": "next start -p 3002", Lorsque faite le mise a jour directament dans le serveurs preprodcreccal
+    pm2 restart preprodcreccal (redemarrer le serveur pm2 preprodcreccal)

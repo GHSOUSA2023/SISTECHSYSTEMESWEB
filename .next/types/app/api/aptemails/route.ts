@@ -1,4 +1,4 @@
-// File: /Users/geraldohenriquesousa/Documents/Project_Creccal/creccal_aws/src/app/api/aptemails/route.js
+// File: /Users/geraldohenriquesousa/Documents/projets/web_aws_ sistechsystemes/src/app/api/aptemails/route.js
 import * as entry from '../../../../../src/app/api/aptemails/route.js'
 import type { NextRequest } from 'next/server.js'
 
