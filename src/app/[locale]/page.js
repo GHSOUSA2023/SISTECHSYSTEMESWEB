@@ -1,5 +1,4 @@
 'use client';
-import LanguageSwitcher from '@/components/LanguageSwitcher';
 import {useTranslations} from 'next-intl';
 import { useRouter } from 'next/navigation';
 
@@ -9,7 +8,6 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-white flex flex-col items-center justify-center px-6 py-20">
-      <LanguageSwitcher />
       <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 text-center">
         {t('welcome')}
       </h1>
