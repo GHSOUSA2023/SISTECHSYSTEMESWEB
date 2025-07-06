@@ -1,82 +1,25 @@
 {
   "pages": {
-    "/_not-found/page": [
-      "static/chunks/webpack-01c0037cfd05b128.js",
-      "static/chunks/4bd1b696-d40c4c5af4338271.js",
-      "static/chunks/517-fc04a9dcdf8f05c5.js",
-      "static/chunks/main-app-b9253094b0fcc6f0.js",
-      "static/chunks/app/_not-found/page-71e9369eb38e4828.js"
-    ],
     "/layout": [
-      "static/chunks/webpack-01c0037cfd05b128.js",
-      "static/chunks/4bd1b696-d40c4c5af4338271.js",
-      "static/chunks/517-fc04a9dcdf8f05c5.js",
-      "static/chunks/main-app-b9253094b0fcc6f0.js",
-      "static/css/5b7aea1077306fe4.css",
-      "static/chunks/app/layout-08187c06732a0242.js"
-    ],
-    "/api/aptemails/route": [
-      "static/chunks/webpack-01c0037cfd05b128.js",
-      "static/chunks/4bd1b696-d40c4c5af4338271.js",
-      "static/chunks/517-fc04a9dcdf8f05c5.js",
-      "static/chunks/main-app-b9253094b0fcc6f0.js",
-      "static/chunks/app/api/aptemails/route-4e62ab47f2d162db.js"
-    ],
-    "/api/aptemails/[apt]/route": [
-      "static/chunks/webpack-01c0037cfd05b128.js",
-      "static/chunks/4bd1b696-d40c4c5af4338271.js",
-      "static/chunks/517-fc04a9dcdf8f05c5.js",
-      "static/chunks/main-app-b9253094b0fcc6f0.js",
-      "static/chunks/app/api/aptemails/[apt]/route-769833396b7626e1.js"
-    ],
-    "/api/packages/route": [
-      "static/chunks/webpack-01c0037cfd05b128.js",
-      "static/chunks/4bd1b696-d40c4c5af4338271.js",
-      "static/chunks/517-fc04a9dcdf8f05c5.js",
-      "static/chunks/main-app-b9253094b0fcc6f0.js",
-      "static/chunks/app/api/packages/route-869abcef135d0cf1.js"
-    ],
-    "/api/packages/search/route": [
-      "static/chunks/webpack-01c0037cfd05b128.js",
-      "static/chunks/4bd1b696-d40c4c5af4338271.js",
-      "static/chunks/517-fc04a9dcdf8f05c5.js",
-      "static/chunks/main-app-b9253094b0fcc6f0.js",
-      "static/chunks/app/api/packages/search/route-eac505f09e036651.js"
-    ],
-    "/api/packages/[id]/route": [
-      "static/chunks/webpack-01c0037cfd05b128.js",
-      "static/chunks/4bd1b696-d40c4c5af4338271.js",
-      "static/chunks/517-fc04a9dcdf8f05c5.js",
-      "static/chunks/main-app-b9253094b0fcc6f0.js",
-      "static/chunks/app/api/packages/[id]/route-63e389c1513dad72.js"
-    ],
-    "/aptemails/page": [
-      "static/chunks/webpack-01c0037cfd05b128.js",
-      "static/chunks/4bd1b696-d40c4c5af4338271.js",
-      "static/chunks/517-fc04a9dcdf8f05c5.js",
-      "static/chunks/main-app-b9253094b0fcc6f0.js",
-      "static/chunks/app/aptemails/page-57e79fed1d164d08.js"
-    ],
-    "/packages/[id]/page": [
-      "static/chunks/webpack-01c0037cfd05b128.js",
-      "static/chunks/4bd1b696-d40c4c5af4338271.js",
-      "static/chunks/517-fc04a9dcdf8f05c5.js",
-      "static/chunks/main-app-b9253094b0fcc6f0.js",
-      "static/chunks/app/packages/[id]/page-39b37325c1da00d8.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/page": [
-      "static/chunks/webpack-01c0037cfd05b128.js",
-      "static/chunks/4bd1b696-d40c4c5af4338271.js",
-      "static/chunks/517-fc04a9dcdf8f05c5.js",
-      "static/chunks/main-app-b9253094b0fcc6f0.js",
-      "static/chunks/app/page-46aeec54ce2d06f5.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/aptemails/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/aptemails/page.js"
     ],
     "/packages/page": [
-      "static/chunks/webpack-01c0037cfd05b128.js",
-      "static/chunks/4bd1b696-d40c4c5af4338271.js",
-      "static/chunks/517-fc04a9dcdf8f05c5.js",
-      "static/chunks/main-app-b9253094b0fcc6f0.js",
-      "static/chunks/app/packages/page-23bec1cda9d3a741.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/packages/page.js"
     ]
   }
 }

@@ -8,7 +8,7 @@ const geist = Geist({
 });
 
 export const metadata = {
-  title: "Creccal Investments Ltd",
+  title: "Sistech Systèmes",
   description: "A simple CRUD example using Next.js",
 };
 
